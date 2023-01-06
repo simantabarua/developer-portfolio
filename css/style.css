@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+.text-primary {
+  color: #fd6e0a;
+}
+.text-secondery {
+  color: #dcd6d2;
+}
+.navbar {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: 50px 200px;
+}
+.navlink {
+  display: flex;
+  align-items: baseline;
+  font-weight: 700;
+}
+li {
+  margin-left: 25px;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #474544;
+}
+a:hover {
+  color: black;
+}
+.btn-primary {
+  background-color: #fd6e0a;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  border-radius: 10px;
+  color: #dcd6d2;
+  font-size: medium;
+  shadow: (0px 4px 4px rgba(0, 0, 0, 0.25));
+  border: 0;
+  padding: 15px 35px;
+  margin: 5px;
+}
+.btn-secondery {
+  background-color: white;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  border-radius: 10px;
+  color: #fd6e0a;
+  border: 2px solid #fd6e0a;
+  font-size: medium;
+  shadow: (0px 4px 4px rgba(0, 0, 0, 0.25));
+  padding: 18px 35px;
+  margin: 5px;
+}
+header {
+  background: #fff8f3;
+  background-position: bottom right, left;
+  background-image: url("./../assets/header_bg.png"),
+    url(./../assets/developer.png);
+  background-repeat: no-repeat;
+}
+
+/* banner style */
+
+.banner {
+  display: flex;
+  align-items: center;
+  margin: 0 200px;
+}
+.banner-title {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 116px;
+}
+.banner-sub-title {
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 61px;
+}
+.banner-description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: justify;
+  text-justify: inter-word;
+  margin-bottom: 15px;
+}
+
+/* main style */
+
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.about {
+  background: #fff8f3;
+  border-radius: 10px;
+  padding: 130px 156px;
+}
+.section-title {
+  color: #181818;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 48px;
+  text-align: center;
+  margin-bottom: 35px;
+}
+.section-description {
+  text-align: justify;
+  text-justify: inter-word;
+  color: #757575;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
+/* ABout container style  */
+
+.about-info-container {
+  display: flex;
+  justify-content: space-between;
+}
+.info-title {
+  color: #757575;
+  font-weight: 600;
+}
+.info-description {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.skills-container {
+  display: flex;
+  gap: 24px;
+  margin-top: 30px;
+}
+
+.skills-card {
+  text-align: left;
+  padding: 30px;
+  background: #ffffff;
+  box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
+}
+.skills-card p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+.skill-title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  margin: 10px;
+}
+.skill-description {
+  color: #757575;
+  font-weight: 400;
+}
+
+/* Resume */
+.resume {
+  background: #fff8f3;
+  border-radius: 10px;
+  padding: 130px 156px;
+}
+
+.resume-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+}
+
+.resume-item-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 41px;
+  color: #474747;
+}
+.resume-items-sub {
+  font-weight: 700;
+  font-size: 15px;
+  color: #474747;
+}
+.resume-items-description {
+  font-weight: 400;
+  font-size: 16px;
+  color: #757575;
+  text-align: justify;
+  margin-top: 10px;
+}
+hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.download-cv {
+  margin: 10px;
+  text-align: center;
+}
+
+/* footer style  */
+footer {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+
+.contact {
+  display: flex;
+  gap: 70px;
+  background: #fff8f3;
+}
+.contact input[type="text"],
+input[type="email"],
+textarea {
+  height: 64px;
+  width: 100%;
+  margin: 10px;
+  padding: 10px;
+  font-weight: 400;
+  font-size: 16px;
+}
